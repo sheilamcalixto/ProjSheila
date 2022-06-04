@@ -1,0 +1,120 @@
+body {
+    background-image: url(../ProjRobson/projetobase/imagens/fundo2.png);
+    background-attachment: fixed;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50x;
+   
+    
+}
+.photo {
+    margin-left: auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ce1313;
+    border-radius: 50%;
+    
+    
+
+}
+
+div {
+    margin: 5; 
+    padding: 5; 
+    font-size: 20px;
+    width: 120px;
+    text-align: justify;
+    line-height: 1;
+    margin: 40px 40px 40px 40px;
+    border-width: 10px 50px 20px 0;
+
+
+}
+
+h3 {
+    text-transform: uppercase;
+    color:yellow;
+    text-align: center;
+    margin-block-start: 2.3em;
+    margin-block-end: 2.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+   text-decoration: none;
+   text-align: center;
+   text-align-last: center;
+   background-image: linear-gradient(to left, rgb(103, 91, 91),rgb(24, 24, 59));
+   width: 20%;
+   border-radius: 30px;
+   padding: 15px;
+   color: white;
+   margin-inline-start: 46%;
+  
+     
+}
+
+header {
+    text-align: center;
+    margin-block-start: 2.3em;
+    
+}
+
+h1 {
+   text-align: center;
+   text-align-last: center;
+   background-image: linear-gradient(to left, rgb(71, 16, 16),rgb(36, 36, 186));
+   width: 40%;
+   border-radius: 40px 40px 200px 200px;
+
+   padding: 15px;
+   color: white;
+   margin-inline: auto;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(71, 16, 16);
+    text-align: justify;
+    font-variant:small-caps;
+    margin-block-start: 2.3em;
+    margin-block-end: 2.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/*FUNCTION DARKMODE*/
+
+footer.dark-mode {
+	background-color: #8d9797;
+	color: #000401;
+}
+
+button {
+	border-radius: 40px;
+	font-size: 1.5rem;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color: #4e545c;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+
+button:hover {
+	background-color: #000401;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
